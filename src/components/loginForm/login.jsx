@@ -1,4 +1,6 @@
 import '../loginForm/login.css'
+import { Link } from 'react-router-dom';
+
 
 
 function LoginForm(){
@@ -42,7 +44,7 @@ function LoginForm(){
                 
 
                 <div className="login-form-title-botton">
-                    <h1>Ainda não possui uma conta? <span> <a href="http://google.com.br" target='_blank'>Cadastre-se!</a> </span></h1>
+                    <h1>Ainda não possui uma conta? <span> <Link to="/register">Cadastre-se!</Link> </span> </h1>
                 </div>
             </form>
         </div>    

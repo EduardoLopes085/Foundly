@@ -14,8 +14,6 @@ function RegisterForm(){
             </div>
             
             
-            
-            
             <form action="" className='register-form'>
                 
                 <div className="register-form-title">
