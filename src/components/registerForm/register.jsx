@@ -4,7 +4,7 @@ import '../registerForm/register.css'
 function RegisterForm(){
     return (
        
-        <div className='form-container'>
+        <div className='form-container-register'>
             
             <div className='register-text'>
                 <div>

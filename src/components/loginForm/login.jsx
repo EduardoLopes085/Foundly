@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function LoginForm(){
     return (
        
-        <div className='form-container'>
+        <div className='form-container-login'>
             
             <div className='login-text'>
                 <div>
