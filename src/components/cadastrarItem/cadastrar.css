@@ -6,28 +6,31 @@
     width: 95vw;  
     height: 90%;  
     border-radius: 50px;
-    display: flex;
-    
-
+    display: flex;   
 }
 
 .card-perfil {
     background: #E0E0E0;
     width: 20%;  /* Ajustando o tamanho do perfil */
     height: 100%;  /* Altura flexível */
+    align-items: center;
     display: flex;
     flex-direction: column;
-    
-   
-}
+    justify-content: space-evenly;
 
+}
+.card-user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .card-perfil h1{
     color: #000;
     font-family: "Kumbh Sans";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 68.571% */
+    line-height: 24px; 
     letter-spacing: 0.5px;
 }
 
@@ -37,14 +40,28 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 96% */
+    line-height: 24px; 
     letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+
 }
 
-.card-perfil img {
+.logoFoundly{
     width: 70%;  
     max-width: 274px;  
     height: auto;  
+}
+
+.card-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+    padding-left: 3px;
+    gap: 45px;
 }
 
  input{
@@ -73,8 +90,7 @@
 
 
 
-.campo-imagem button{
-    display: inline-flex;
+.envio-foto{
     height: 43px;
     padding: 8px 0px 7px 55px;
     justify-content: flex-end;

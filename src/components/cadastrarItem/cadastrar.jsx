@@ -1,4 +1,5 @@
 import logoFoundly from "../../assets/logo-foundly.svg";
+import accountCircle from "../../assets/account_circle.svg";
 import '../cadastrarItem/cadastrar.css'
 
 
@@ -8,25 +9,29 @@ function CadastrarItem(){
             <div className="card-perfil">
  
                <div className="card-user">
-                    <i className="icon-user fa-solid fa-circle-user"></i>
+                    <img src= {accountCircle} 
+                    alt="Icon user"
+                    className="icon-user" />
                     <h1>Ingrid Almeida</h1>
                </div>
                 
                 <div className="card-lista">
-                    <p><i class="fa-solid fa-bars"></i>Meus achados</p>
-                    <p><i className="fa-solid fa-pen-to-square"></i>Editar perfil</p>
-                    <p><i className="fa-solid fa-magnifying-glass"></i>Buscar item perdido</p>
+                   <button><i class="fa-solid fa-bars"></i>Meus achados</button>
+                    <button><i className="fa-solid fa-pen-to-square"></i>Editar perfil</button>
+                    <button><i className="fa-solid fa-magnifying-glass"></i>Buscar item perdido</button>
                 </div>
 
                 <img src= {logoFoundly} 
                 alt="Logo Foundly"
                 className='logoFoundly' />
 
-                <p>Sair</p>
+                <p><i class="fa-solid fa-arrow-up-right-from-square"></i>Sair</p>
             </div>
+           
             <div className="card-form">
                <form action= "" className='cadastrar-form'>
                     <h1>Achei um item</h1>
+                    <hr />
 
                     <div className="campo-nome">
                         <p>Nome do item</p>
