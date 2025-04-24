@@ -55,7 +55,7 @@ picture {
 #root {
   height: 100dvh;
   display: flex;
-  justify-content: flex-end; /* joga pro lado direito */
+  justify-content: flex-start; /* joga pro lado direito */
   align-items: center;        /* centraliza verticalmente */
   background-color: #5b86e5;
 }
