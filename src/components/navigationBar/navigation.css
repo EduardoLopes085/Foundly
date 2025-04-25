@@ -18,7 +18,11 @@
     
 }
 
-
+.user-name {
+    font-size: 30px; /* aumenta o tamanho da fonte */
+    font-weight: bold; /* opcional: deixa mais destacado */
+    margin-top: 10px; /* espaçamento superior, se precisar */
+  }
 
 .nav-options{
     display: flex;
