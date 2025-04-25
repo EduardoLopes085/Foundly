@@ -53,14 +53,14 @@ function CadastrarItem(){
                         <input className="input-cadastrar" type="texto" placeholder="disponibilize número ou email para contato" required />
                     </div>
 
-                    <div className="row">
+                    <div className="campo-img">
                         <p>Imagem do item</p>
                         <button className='envio-foto' type='submit'> + UPLOAD </button>
                     </div>
 
                    <div className="campo-observacao">
                      <p>Observação (opcional)</p>
-                        <input className="input-cadastrar" type="texto" placeholder="Deixe alguma observação sobre o item" required />
+                     <input className="input-cadastrar" type="texto" placeholder="Deixe alguma observação sobre o item" required />
                    </div>
 
                     <button className='button-salvar' type='submit'>Salvar</button>

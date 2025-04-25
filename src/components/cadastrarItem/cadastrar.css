@@ -39,12 +39,14 @@
 }
 
 .campo-nome{
-    width: 100%;
+    width: 70%;
 
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
+
+    gap: 1rem;
 }
 
 
@@ -52,9 +54,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
+   
+    
+    width: 70%;
+}
 
-    width: 100%;
+.campo-categoria label,
+.campo-localizacao label {
+  display: block;
+  margin-bottom: 8px; /* ou o valor que você preferir */
 }
 
 
@@ -70,8 +80,16 @@
     flex-direction: column;
 }
 
+.campo-contato{
+    width: 70%;
+    
+    
+}
 
 
+.campo-contato > p{
+    margin-bottom: 1rem;
+}
 
 .logoFoundly{
     width: 70%;  
@@ -79,6 +97,39 @@
     height: auto;  
 }
 
+.campo-img{
+    width: 70%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+   
+}
+
+.campo-img > button{
+    background-color: #00ADF1;
+    color: white;
+
+    width: 20%; 
+    padding: 10px;
+    border-radius: 20px;
+    
+    text-align: center;
+}
+
+
+
+.campo-observacao{
+    width: 70%;
+    
+   
+}
+
+.campo-observacao > p{
+    margin-bottom: 1rem;
+}
 
 
 .input-cadastrar{
@@ -107,7 +158,7 @@
 
 
 
-.envio-foto{
+/* .envio-foto{
     height: 43px;
     padding: 8px 0px 7px 55px;
     justify-content: flex-end;
@@ -120,9 +171,9 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 96% */
+    line-height: 24px; 
     letter-spacing: 0.5px;
-}
+} */
 
 .button-salvar{
     width: 30%;
