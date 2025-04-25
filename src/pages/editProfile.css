@@ -1,86 +1,37 @@
-.edit-profile-container {
+/* Container principal da página */
+.edit-profile-page {
   display: flex;
   height: 100vh;
   background-color: #5B86E5;
-  padding: 47.5px 0;
   margin: 0;
+  padding: 47.5px 0; /* Mantém o padding superior e inferior */
 }
 
-.menu-bar {
-  width: 60px;
-  background-color: #E0E0E0;
-  border-radius: 0px;
-  margin-left: 0;
-  padding: 300px;
+/* Barra lateral cinza */
+.navigation-container {
+  background-color: #f2f2f2;
+  position: fixed; /* Fixa a barra na extremidade esquerda */
+  left: 0;
+  margin-top: -1px;
+  margin-bottom: 10px;
+  padding: 5px; /* Padding interno */
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
 }
 
+
+/* Caixa branca com o formulário de edição */
 .rounded-box {
-  width: 1600px;
-  max-width: 1200px;
+  width: 1150px;  /* Isso vai fazer a largura da barra branca ocupar o restante da tela, levando em conta a barra lateral */
   background-color: white;
   border-radius: 0px 20px 20px 0px;
-  margin-right: 40px;
+  margin-right: 20px;
   padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
-.avatar-img {
-  position: absolute;
-  top: 22px;
-  left: 75%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-}
 
-.user-name {
-  position: absolute;
-  top: 75px;
-  left: 75%;
-  transform: translateX(-50%);
-  color: #333;
-  font-size: 25px;
-  white-space: nowrap;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.menu-link {
-  text-decoration: none;
-  color: #333;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 5px;
-  margin-left: 300px;
-  white-space: nowrap;
-}
-
-.logout-link {
-  text-decoration: none;
-  color: #333;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 200px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.menu-link:hover {
-  background-color: #ddd;
-}
-
+/* Título da página */
 .rounded-box h1 {
   font-size: 32px;
   color: #333;
@@ -89,20 +40,12 @@
   border-bottom: 1px solid #ccc;
 }
 
-.inicio-logo {
-  width: 40px;  /* Tamanho da logo */
-  height: 40px; /* Tamanho da logo */
-  margin-bottom: 300px; /* Espaço abaixo da logo */
-  margin-left: 300px;
-  left: 75%;
-}
-
-/* Estilo dos campos de edição de perfil */
+/* Estilo do formulário */
 .edit-profile-form {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Espaçamento entre os campos */
-  margin-top: 18px; /* Adiciona um pouco de espaçamento antes dos campos */
+  gap: 10px;
+  margin-top: 18px;
 }
 
 .edit-profile-form label {
@@ -116,16 +59,17 @@
   padding: 10px;
   font-size: 14px;
   border: 1px solid #ccc;
-  margin-bottom: 4px; /* Reduzido o espaço entre os campos */
+  margin-bottom: 4px;
   border-radius: 8px;
 }
 
 .form-label {
   font-size: 15px;
-  margin-bottom: 2px; /* Diminui o espaço entre o título e o campo */
-  font-weight: bold; /* Deixa o título em negrito */
+  margin-bottom: 2px;
+  font-weight: bold;
 }
 
+/* Botão de salvar */
 .save-btn {
   background-color: #5B86E5;
   color: white;
@@ -139,5 +83,5 @@
 }
 
 .save-btn:hover {
-  background-color: #4a70b7; /* Efeito hover para o botão */
+  background-color: #4a70b7;
 }

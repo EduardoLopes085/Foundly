@@ -1,40 +1,14 @@
 import React from 'react';
 import './editProfile.css';
-import avatar from '../assets/avatar.png'; // ajuste o caminho se necessário
-import { FaPencilAlt } from 'react-icons/fa'; // Ícone de lista
-import { FaList } from 'react-icons/fa'; // ícone de lista
-import { FaSearch } from 'react-icons/fa'; // ícone de lupa
-import { FaSignOutAlt } from 'react-icons/fa'; // ícone de logout
+import NavigationBar from '../components/navigationBar/navigationBar'; // importa a barra de navegação
 
 function EditProfile() {
   return (
-    <div className="edit-profile-container">
-      <div className="menu-bar">
-        <img src={avatar} alt="Avatar" className="avatar-img" />
-        <p className="user-name">Ingrid Almeida</p>
-        
-        {/* Menu com Meus Achados, Editar perfil e Buscar item perdido */}
-        <a href="#" className="menu-link">
-          <FaList style={{ marginRight: '8px' }} />
-            Meus achados
-        </a>
-        <a href="#" className="menu-link">
-          <FaPencilAlt style={{ marginRight: '8px' }} />
-            Editar perfil
-        </a>
-        <a href="#" className="menu-link">
-          <FaSearch style={{ marginRight: '8px' }} />
-            Buscar item perdido
-        </a>
+    <div className="edit-profile-page">
+      {/* Barra lateral cinza */}
+      <NavigationBar />
 
-        {/* Link Sair */}
-        <a href="#" className="menu-link logout-link">
-          <FaSignOutAlt style={{ marginRight: '8px' }} />
-            Sair
-        </a>
-      </div>
-
-      {/* Barra de edição de perfil */}
+      {/* Conteúdo principal da página */}
       <div className="rounded-box">
         <h1>Editar Perfil</h1>
 
