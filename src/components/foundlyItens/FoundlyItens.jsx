@@ -1,6 +1,5 @@
 import React from "react";
-
-import '../foundlyItens/foundlyitens.css'
+import './foundlyItens.css'
 
 
 import logoFoundly from "../../assets/logo-foundly.svg";

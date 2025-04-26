@@ -1,5 +1,5 @@
 import React from "react";
-import "../navigationbar/navigation.css";
+import "../navigationBar/navigation.css";
 
 function NavigationBar({ 
   userName, 

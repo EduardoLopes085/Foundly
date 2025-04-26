@@ -1,14 +1,18 @@
 import logoFoundly from "../../assets/logo-foundly.svg";
 import accountCircle from "../../assets/account_circle.svg";
 import '../cadastrarItem/cadastrar.css'
-import NavigationBar from "../navigationbar/navigationBar";
+import NavigationBar from "../navigationBar/navigationBar";
 
 
 function CadastrarItem(){
     return(
         <div className="card-total"> 
             
-            <NavigationBar/>
+            <NavigationBar userName="Eduardo Lopes de Castro Barbosa" imageProfile={accountCircle} logo={logoFoundly} linkMeusAchados={{ href: "/meus-achados", label: "Meus achados" }}
+                linkEditarPerfil={{ href: "/editar-perfil", label: "Editar perfil" }}
+                linkBuscarItem={{ href: "/buscar", label: "Buscar item perdido" }}
+                linkSair={{ href: "/logout", label: "Sair" }}
+            />  
            
             <div className="card-form">
                <form action= "" className='cadastrar-form'>
