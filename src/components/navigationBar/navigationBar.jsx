@@ -1,55 +1,46 @@
 import React from "react";
-import logoFoundly from "../../assets/logo-foundly.svg";
-import accountCircle from "../../assets/account_circle.svg";
-import '../navigationbar/navigation.css'
+import "../navigationbar/navigation.css";
 
-function NavigationBar(){
-    return(
-        <>
-            <div className="navigation-container">
-                
-                <div className="user-perfil">
-                    <img className="user-image" src={accountCircle} alt="foto de perfil do usuário" />
+function NavigationBar({ 
+  userName, 
+  imageProfile, 
+  linkMeusAchados, 
+  linkEditarPerfil, 
+  linkBuscarItem, 
+  linkSair,
+  logo 
+}) {
+  return (
+    <div className="navigation-container">
+      
+      <div className="user-perfil">
+        <img className="user-image" src={imageProfile} alt="foto de perfil do usuário" />
+        <div className="user-name">{userName}</div>
+      </div>
 
-                    <div className="user-name">Eduardo Lopes de Castro Barbosa</div>
-                </div>
+      <div className="nav-options">
+        <a href={linkMeusAchados?.href}>
+          <i className="fa-solid fa-bars"></i> {linkMeusAchados?.label}
+        </a>
 
-                <div className="nav-options">
-                    <a href="">
-                        <i class="fa-solid fa-bars"></i> Meus achados
-                    </a>
+        <a href={linkEditarPerfil?.href}>
+          <i className="fa-solid fa-pen-to-square"></i> {linkEditarPerfil?.label}
+        </a>
 
-                    <a href="">
-                        <i className="fa-solid fa-pen-to-square"> </i> Editar perfil
-                    </a>
-                    
-                    <a href="">
-                        <i className="fa-solid fa-magnifying-glass"></i> Buscar item perdido
-                    </a>
+        <a href={linkBuscarItem?.href}>
+          <i className="fa-solid fa-magnifying-glass"></i> {linkBuscarItem?.label}
+        </a>
+      </div>
 
-                </div>
+      <img className="FoundlyLogo" src={logo} alt="Logo Foundly" />
 
-                <img className="FoundlyLogo" src={logoFoundly} alt="" />
-
-                <div className="logoff">
-                    <a href="">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Sair
-                    </a>
-                </div>
-
-
-            </div>
-        
-        
-        
-        
-        
-        </>
-    );
-};
-
-
-
+      <div className="logoff">
+        <a href={linkSair?.href}>
+          <i className="fa-solid fa-arrow-up-right-from-square"></i> {linkSair?.label}
+        </a>
+      </div>
+    </div>
+  );
+}
 
 export default NavigationBar;
-

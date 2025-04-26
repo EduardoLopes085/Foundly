@@ -1,13 +1,27 @@
 import React from "react";
-import NavigationBar from "../navigationbar/navigationBar";
+
 import '../foundlyItens/foundlyitens.css'
+
+
+import logoFoundly from "../../assets/logo-foundly.svg";
+import accountCircle from "../../assets/account_circle.svg";
+import NavigationBar from "../navigationBar/navigationBar";
+
+import sample from '../../assets/image-3.jpg'
+import ItemCard from "../itemCard/itemCard";
 
 function FoundlyItens(){
     return(
         <>
             <div className="foundly-conatiner">
 
-                <NavigationBar/>
+            
+
+                <NavigationBar userName="Eduardo Lopes de Castro Barbosa" imageProfile={accountCircle} logo={logoFoundly} linkMeusAchados={{ href: "/meus-achados", label: "Meus achados" }}
+                    linkEditarPerfil={{ href: "/editar-perfil", label: "Editar perfil" }}
+                    linkBuscarItem={{ href: "/buscar", label: "Buscar item perdido" }}
+                    linkSair={{ href: "/logout", label: "Sair" }}
+                />      
 
 
                 <div className="foundly-content">
@@ -28,27 +42,25 @@ function FoundlyItens(){
 
 
                     <div className="card-grid-container">
-                        <div class="card">Card 1</div>
-                        <div class="card">Card 2</div>
-                        <div class="card">Card 3</div>
-                        <div class="card">Card 4</div>
-                        <div class="card">Card 5</div>
-                        <div class="card">Card 6</div>
-                        <div class="card">Card 7</div>
-                        <div class="card">Card 8</div>
-                        <div class="card">Card 9</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
-                        <div class="card">Card 10</div>
 
+                        <ItemCard image={sample} title="Chave azul com chaveiro" category="Chaves" date="01/04/2024" location="Praça do Ferreira" contact="(85) 98554-6521" status="Perdido"/>
+
+                        <ItemCard image={sample} title="Chave azul com chaveiro" category="Chaves" date="01/04/2024" location="Praça do Ferreira" contact="(85) 98554-6521" status="Perdido"/>
+
+                        <ItemCard image={sample} title="Chave azul com chaveiro" category="Chaves" date="01/04/2024" location="Praça do Ferreira" contact="(85) 98554-6521" status="Perdido"/>
+
+                        <ItemCard image={sample} title="Chave azul com chaveiro" category="Chaves" date="01/04/2024" location="Praça do Ferreira" contact="(85) 98554-6521" status="Perdido"/>
+
+                        <ItemCard image={sample} title="Chave azul com chaveiro" category="Chaves" date="01/04/2024" location="Praça do Ferreira" contact="(85) 98554-6521" status="Perdido"/>
+
+                        <ItemCard image={sample} title="Chave azul com chaveiro" category="Chaves" date="01/04/2024" location="Praça do Ferreira" contact="(85) 98554-6521" status="Perdido"/>
+
+                        <ItemCard image={sample} title="Chave azul com chaveiro" category="Chaves" date="01/04/2024" location="Praça do Ferreira" contact="(85) 98554-6521" status="Perdido"/>
+
+                        <ItemCard image={sample} title="Chave azul com chaveiro" category="Chaves" date="01/04/2024" location="Praça do Ferreira" contact="(85) 98554-6521" status="Perdido"/>
+                        
+
+                    
                     </div>
 
                 </div>
