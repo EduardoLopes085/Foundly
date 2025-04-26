@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+.card-total {
+  background: #ffffff;
+  width: 95vw;
+  height: 90%;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+
+  overflow: hidden;
+}
+
+.card-form {
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.cadastrar-form {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.cadastrar-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.campo-nome,
+.campo-descricao,
+.campo-contato,
+.campo-img,
+.campo-observacao,
+.campo-data {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 8px;
+}
+
+.row {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+
+.campo-categoria,
+.campo-localizacao {
+  width: 48%;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.campo-categoria label,
+.campo-localizacao label {
+  margin-bottom: 8px;
+}
+
+.input-cadastrar,
+.campo-categoria select,
+.campo-localizacao input,
+.campo-localizacao select {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 12px 24px 4px 24px;
+  border-radius: 300px;
+  border: 1px solid #9d9d9d;
+  font-size: 16px;
+}
+
+.campo-img {
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.campo-img input {
+  flex: 1;
+}
+
+.campo-img > button {
+  background-color: #00adf1;
+  color: white;
+  width: 30%;
+  min-width: 120px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+}
+
+.button-salvar {
+  width: 50%;
+  min-width: 180px;
+  align-self: center;
+  gap: 8px;
+  border-radius: 5px;
+  background: #00adf1;
+  padding: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  margin-top: 16px;
+  transition: background 0.2s;
+}
+
+.button-salvar:hover {
+  background: #018ec6;
+}
+
+.input-error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+@media (max-width: 700px) {
+  .card-form,
+  .cadastrar-form {
+    width: 98vw;
+    max-width: 98vw;
+    padding: 0;
+  }
+  .cadastrar-form {
+    gap: 16px;
+  }
+  .campo-nome,
+  .campo-descricao,
+  .campo-contato,
+  .campo-img,
+  .campo-observacao,
+  .campo-data,
+  .row {
+    max-width: 98vw;
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .campo-categoria,
+  .campo-localizacao {
+    width: 100%;
+  }
+  .button-salvar {
+    width: 90%;
+    min-width: 0;
+  }
+}

@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
 
-/* ====== RESET BASE ====== */
 *,
 *::before,
 *::after {
@@ -9,18 +8,16 @@
   box-sizing: border-box;
 }
 
-/* Remove estilo padrão de listas */
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
-/* Remove estilos padrão de links */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Herda fonte dos inputs e botões */
 input,
 button,
 textarea,
@@ -31,32 +28,29 @@ select {
   background: none;
 }
 
-/* Define altura total e fonte base */
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   color: #111;
 }
 
-/* Estilização básica para botões */
 button {
   cursor: pointer;
   background-color: transparent;
 }
 
-/* Imagens responsivas */
 img,
 picture {
   max-width: 100%;
   display: block;
 }
 
-/* Cor de fundo do body */
 #root {
   height: 100dvh;
   display: flex;
-  justify-content: flex-start; /* joga pro lado direito */
-  align-items: center;        /* centraliza verticalmente */
+  justify-content: flex-start;
+  align-items: center;
   background-color: #5b86e5;
 }
-
