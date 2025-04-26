@@ -134,7 +134,7 @@ A aplicação consome a [Foundly API](https://github.com/izaacledererjunior/api-
 - **izaacledererjunior@gmail.com**
 - **amandaellem2023@gmail.com**
 - **ingridalmeida3197@gmail.com**
-- **eduardolcb18@gmail.com**
+- **Eduardo Lopes** [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eduardolcb18@gmail.com)[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-lopes-b74827232/)
 - **jonasmonteirotst@gmail.com**
 - **sunamitasantana56@gmail.com**
 
