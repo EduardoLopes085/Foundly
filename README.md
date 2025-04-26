@@ -134,6 +134,7 @@ A aplicação consome a [Foundly API](https://github.com/izaacledererjunior/api-
 - **Izaac Lederer Junior**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:izaacledererjunior@gmail.com)
   [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/izaacledererjunior)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/izaacledererjr)
 
 - **Amanda Ellem**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amandaellem2023@gmail.com)
