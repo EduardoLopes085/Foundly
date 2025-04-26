@@ -133,12 +133,15 @@ A aplicação consome a [Foundly API](https://github.com/izaacledererjunior/api-
 
 - **Izaac Lederer Junior**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:izaacledererjunior@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/izaacledererjunior)
 
 - **Amanda Ellem**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amandaellem2023@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amandinhacruz)
 
 - **Ingrid Almeida**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ingridalmeida3197@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ing-almeida)
 
 - **Eduardo Lopes**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eduardolcb18@gmail.com)
@@ -147,11 +150,14 @@ A aplicação consome a [Foundly API](https://github.com/izaacledererjunior/api-
 
 - **Jonas Monteiro**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jonasmonteirotst@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jonasnmonteiro)
 
 - **Sunamita Santana**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sunamitasantana56@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sunamitadev)
 
 ---
+
 
 
 
