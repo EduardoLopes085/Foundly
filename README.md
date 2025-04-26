@@ -136,6 +136,7 @@ A aplicação consome a [Foundly API](https://github.com/izaacledererjunior/api-
 - **ingridalmeida3197@gmail.com**
 - **eduardolcb18@gmail.com**
 - **jonasmonteirotst@gmail.com**
+- **sunamitasantana56@gmail.com**
 
 ---
 
