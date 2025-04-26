@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import accountCircle from '../../assets/account_circle.svg';
 import '../RegisterItem/Register.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
-import apiConfig from '../../../config.api.json';
+import apiConfig from '../../config.api.json';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

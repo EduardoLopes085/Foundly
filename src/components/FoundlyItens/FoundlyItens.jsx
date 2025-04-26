@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './FoundlyItens.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import ItemCard from '../ItemCard/ItemCard';
-import apiConfig from '../../../config.api.json';
+import apiConfig from '../../config.api.json';
 import { useNavigate } from 'react-router-dom';
 
 function FoundlyItens() {

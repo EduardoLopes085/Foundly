@@ -3,7 +3,7 @@ import './LoginForm.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import apiConfig from '../../../config.api.json';
+import apiConfig from '../../config.api.json';
 
 function LoginForm() {
   const [email, setEmail] = useState('');

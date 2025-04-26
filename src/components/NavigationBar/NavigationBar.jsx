@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './NavigationBar.css';
 import accountCircle from '../../assets/account_circle.svg';
-import apiConfig from '../../../config.api.json';
+import apiConfig from '../../config.api.json';
 import logoFoundly from '../../assets/logo-foundly.svg';
 
 function NavigationBar() {

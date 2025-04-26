@@ -3,7 +3,7 @@ import accountCircle from '../../assets/account_circle.svg';
 import '../RegisterItem/Register.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import ItemCard from '../ItemCard/ItemCard';
-import apiConfig from '../../../config.api.json';
+import apiConfig from '../../config.api.json';
 
 function SearchItem() {
   const [categorias, setCategorias] = useState([]);
