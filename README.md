@@ -138,6 +138,7 @@ A aplicação consome a [Foundly API](https://github.com/izaacledererjunior/api-
 - **Amanda Ellem**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amandaellem2023@gmail.com)
   [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amandinhacruz)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amanda-cruz-dev/)
 
 - **Ingrid Almeida**  
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ingridalmeida3197@gmail.com)
